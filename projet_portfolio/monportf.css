@@ -1,0 +1,394 @@
+
+.content {
+    width: 100%;
+    margin: auto;
+
+
+}
+
+
+#welcom {
+    position: absolute;
+    left: 35vw;
+    top: 20vh;
+    z-index: 4;
+    opacity: 0.5;
+}
+
+canvas::before {
+    background-color: black;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+
+}
+
+
+.carousel-item {
+    position: relative;
+}
+
+.anim {
+    position: absolute;
+    width: 400px;
+    right: 70px;
+    top: 100px;
+
+}
+
+.motive {
+    color: darkblue;
+    font-size: large;
+    line-height: 80px;
+    font-weight: bold;
+    position: absolute;
+    right: 10vw;
+    top: 30vh;
+}
+
+
+.logo {
+    position: absolute;
+    top: 1vh;
+    right: 10vw;
+}
+
+.motive, h1, h2, h5, h4, h6 {
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card {
+    margin: 20px;
+}
+
+.nav .navbar-nav {
+    align-items: center;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+li.nav-item {
+
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.ligne, .ligne2, .ligne3, .ligne4 {
+    width: 150px;
+    font-weight: bolder;
+    color: #0c5460;
+    line-height: 20px;
+    border-top: #0c5460 5px solid;
+}
+
+
+.moi > p {
+    width: 40%;
+}
+
+.moi > img {
+    height: 300px;
+    width: 250px;
+}
+
+.moi {
+    display: flex;
+    justify-content: space-around;
+    height: 65vh;
+}
+
+
+h1, h2 {
+    text-align: center;
+    line-height: 5vh;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+.cadre {
+    margin-bottom: 0;
+    margin-left: 0.1vh;
+    border: #f55804 2px solid;
+    border-radius: 25%;
+}
+
+
+main.container {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+#maitrise {
+    margin-top: -6vh;
+}
+
+.progress {
+    background-color: #f55804;
+    height: 2.2vh;
+    box-sizing: border-box;
+    border: #f55804 solid 1px;
+    padding: 0;
+    margin-top: 1vh;
+}
+
+.progression {
+    background-color: #0deed3;
+    height: 1.9vh;
+    width: 40%;
+    margin: auto 0;
+    /* border: #f55804 solid 1px;*/
+
+}
+
+.progression1 {
+    background-color: #0deed3;
+    height: 1.9vh;
+    width: 60%;
+    margin: auto 0;
+    /* border: #f55804 solid 1px;*/
+}
+
+.progression2 {
+    background-color: #0deed3;
+    height: 1.9vh;
+    width: 70%;
+    margin: auto 0;
+    /* border: #f55804 solid 1px;*/
+}
+
+.progression3 {
+    background-color: #0deed3;
+    height: 1.9vh;
+    width: 80%;
+    margin: auto 0;
+    /* border: #f55804 solid 1px;*/
+}
+
+.progression4 {
+    background-color: #0deed3;
+    height: 1.9vh;
+    width: 90%;
+    margin: auto 0;
+    /* border: #f55804 solid 1px;*/
+}
+
+h6 {
+    margin-bottom: 0;
+}
+
+.timeline {
+    padding: 0 10px;
+    position: relative;
+
+}
+
+.timeline li {
+    list-style-type: none;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 1vw;
+    height: 75vh;
+    background-color: #333;
+    left: 50%;
+    margin-left: -2.5px;
+}
+
+.timeline > li {
+
+    position: relative;
+}
+
+.timeline > li:after {
+    clear: both;
+}
+
+.timeline > li:before, .timeline > li:after {
+    content: "";
+    display: table;
+}
+
+.timeline li .timeline-badge {
+    color: #fff;
+    width: 50px;
+
+
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #444;
+    border-radius: 50%;
+}
+
+.timeline-card-container {
+    width: 50%;
+    float: left;
+}
+
+.timeline-card-container-inverted {
+    width: 50%;
+    float: right;
+}
+
+.timeline-card {
+    width: 80%;
+    float: right;
+    margin-right: 1vw;
+    border: 1px solid #4d4d4d;
+    border-radius: 7px;
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.175);
+    background: #ddd;
+}
+
+.timeline-card-container-inverted .timeline-card {
+    float: left;
+    margin-left: 2vw;
+}
+
+.timeline-card:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #4d4d4d;
+    border-right: 0 solid #4d4d4d;
+    border-bottom: 14px solid transparent;
+    content: "";
+}
+
+.timeline-card-container-inverted .timeline-card:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+
+img.card-img-top {
+    height: 25vh;
+}
+
+footer {
+    height: 100vh;
+    background: #1a252f;
+    margin-top: -50px;
+}
+
+.reseau {
+    padding-top: 5vh;
+    height: 40vh;
+}
+
+.contact {
+    width: 150px;
+    height: 150px;
+}
+
+.footer__wrapper {
+
+
+    text-align: center;
+    padding: 10vh;
+}
+
+
+@media (max-width: 600px) {
+    #maitrise, #top1 {
+        margin: 0;
+    }
+
+    .moi {
+        height: 100vh;
+        display: block;
+    }
+
+    .moi > img {
+        width: 200px;
+        height: 250px;
+    }
+    .moi > p {
+        padding-top: 2vh;
+        width: 100%;
+    }
+
+    li {
+        width: 400px;
+    }
+    #top2{
+        margin-top: 2vh;
+    }
+    #portfolio{
+        margin-top: 2vh;
+    }
+    .timeline-card {
+        margin-right: 0;
+        padding: 0 2px;
+    }
+
+
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+        padding: 0;
+    }
+
+    .progress {
+        width: 200px;
+    }
+
+    .timeline-card-container {
+        width: 43%;
+    }
+
+    .timeline:before {
+        height: 150vh;
+    }
+
+    #top3 {
+        margin-bottom: 0;
+    }
+
+    footer {
+        height: 700px;
+        margin-top: 0;
+    }
+
+    .contact {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    ul.reseau.row {
+        height: 400px;
+        margin: 0;
+        padding-left: 0;
+
+
+    }
+}
+
+
